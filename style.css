@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,500");
+html { height: 100%;}
+body { height: 100%; margin: 0px; background-color: #ffa801; padding: 0px; margin-left: 40%; margin-top: 5%;}
+body, input, textarea { font-family: "Roboto"; font-weight: 300;}
+.button {cursor: default; text-align: center; padding: 7px 12px; font-size: 25px; text-shadow: 0 -1px 1px #000; color: #FFF; font-weight: bold; display: inline-block; border-top: 1px solid #777; width: 70px; height: 70px; margin: 2px; background: linear-gradient(#5F5F5F 0%, #404040 100%); box-shadow: 0 2px 6px rgba(0, 0, 0, .8); margin-bottom: 10px;}
+.button:hover {background: linear-gradient(#79D144 0%, #50A61F 100%); border-top: 1px solid #9ADD73; text-shadow: 0 -1px 1px #008000}
+.button:actived {box-shadow: none}
+.textview {text-align: right; width: 33%; background-color: #121212; border: none; color: #C8C8C8; font-size: 25px; padding: 20px; margin : 5px; border-bottom: 1px solid #777; box-shadow: inset 0 0 10px 4px rgba(0, 0, 0, .6)}
